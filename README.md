@@ -7,3 +7,9 @@
 ```dos
 X:\XXXX> build.cmd
 ```
+
+## 접속
+
+* `http://localhost:8864` - 파일서버
+* `http://localhost:8864/hello` - 헬로월드
+* `http://localhost:8864/bye` - 종료
