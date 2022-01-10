@@ -40,4 +40,5 @@ X:\XXXX> copy_binary.cmd
 * `wsl 관련된 개체 종류에 대한 해당 작업은 지원되지 않습니다`
     * nolsp - https://github.com/dyingsu/nolsp
     * `NoLsp.exe C:\windows\system32\wsl.exe`
+    * 아니면 이렇게 해도 된다고 한다 - https://stackoverflow.com/a/63578387
 * Docker Desktop for Windows 설치 - https://hub.docker.com/editions/community/docker-ce-desktop-windows
