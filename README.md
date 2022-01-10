@@ -5,11 +5,21 @@
 ## 실행
 
 ```dos
-X:\XXXX> build.cmd
+X:\XXXX> build_go.cmd
+X:\XXXX> build_image.cmd -> 한번만
+X:\XXXX> run_container.cmd
+```
+
+## 컨테이너 내 실행파일 변경 후 반영
+
+소스 수정 후 아래와 같이 실행
+```dos
+X:\XXXX> build_go.cmd
+X:\XXXX> copy_binary.cmd
 ```
 
 ## 접속
 
 * `http://localhost:8864` - 파일서버
 * `http://localhost:8864/hello` - 헬로월드
-* `http://localhost:8864/bye` - 종료
+* `http://localhost:8864/bye` - 컨테이너 종료
